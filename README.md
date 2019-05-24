@@ -1,6 +1,8 @@
-<center>
-    <h1>App Boot Starter</h1>
-</center>
+
+[![](https://jitpack.io/v/iutil/app-boot-starter.svg)](https://jitpack.io/#iutil/app-boot-starter)
+
+
+<h1 style="text-align:center;">App Boot Starter</h1>
 
 应用起步
 
@@ -34,9 +36,32 @@
 
 ```xml
 <dependency>
-    <groupId>{预留}</groupId>
+    <groupId>com.github.iutil</groupId>
     <artifactId>app-boot-starter</artifactId>
-    <version>{NewVersion}</version>
+    <version>1.0.0.BUILD</version>
 </dependency>
+```
+
+## 自定义错误页面
+
+错误页面命名：
+
+`404.html`
+
+`500.html`
+
+`error.html`
+
+路径：
+
+```
+.
+└── src
+    └── resources
+        └── templates
+            └── error
+                ├── 404.html
+                ├── 500.html
+                └── error.html
 ```
 
