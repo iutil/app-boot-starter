@@ -13,7 +13,8 @@
 
     <groupId>net.iutil</groupId>
     <artifactId>app-boot-starter</artifactId>
-    <version>1.0.0.BUILD</version>
+    <version>1.0.0.SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>app-boot-starter</name>
     <description>应用起步</description>
 
@@ -34,15 +35,16 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.fengwenyi</groupId>
-            <artifactId>JavaLib-result</artifactId>
-            <version>V1.1.0.RELEASE</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+
+        <!--<dependency>
+            <groupId>com.github.iutil</groupId>
+            <artifactId>api-result</artifactId>
+            <version>1.0.0.BUILD</version>
+            <scope>provided</scope>
+        </dependency>-->
     </dependencies>
 
     <build>

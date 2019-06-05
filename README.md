@@ -1,7 +1,4 @@
 
-[![](https://jitpack.io/v/iutil/app-boot-starter.svg)](https://jitpack.io/#iutil/app-boot-starter)
-
-
 <h1 align="center">
     App Boot Starter
 </h1>
@@ -11,6 +8,9 @@
 </p>
 
 <p align="center">
+    <a target="_blank" href="https://jitpack.io/#iutil/app-boot-starter">
+		<img src="https://jitpack.io/v/iutil/app-boot-starter.svg" ></img>
+	</a>
 	<a target="_blank" href="https://www.apache.org/licenses/LICENSE-2.0.html">
 		<img src="https://img.shields.io/:license-apache-blue.svg" ></img>
 	</a>
@@ -36,6 +36,10 @@
 只为下一个应用，
 一个引入，就可以解决这些问题。
 
+## 预览
+
+![404 页面 预览效果](./images/404.png)
+
 ## 使用
 
 你只需要两步，即可使用：
@@ -57,7 +61,7 @@
 <dependency>
     <groupId>com.github.iutil</groupId>
     <artifactId>app-boot-starter</artifactId>
-    <version>1.0.0.BUILD</version>
+    <version>1.0.0.SNAPSHOT</version>
 </dependency>
 ```
 
@@ -77,10 +81,14 @@
 .
 └── src
     └── resources
+        ├── static
+        │   └── css
+        │       └── error
+        │           └── style.css   // 样式
         └── templates
             └── error
-                ├── 404.html
-                ├── 500.html
-                └── error.html
+                ├── 404.html        // 404页面
+                ├── 500.html        // 500页面
+                └── error.html      // 错误页面
 ```
 
